@@ -126,24 +126,10 @@
       'header-home': isHome}">
             <p>
                 <router-link to="/user/foo">/user/foo</router-link>
-                <router-link to="/user/foo1/profile">/user/foo1/profile</router-link>
-                <router-link to="/user/foo/posts">/user/foo/posts</router-link>
+                <router-link to="/user/profile">/user/foo1/profile</router-link>
+                <router-link to="/user/posts">/user/foo/posts</router-link>
             </p>
-            <!--<div class="container">-->
-                <!--<h1><router-link :to="/home">-->
-                    <!--<img src="../assets/images/logo.png"-->
-                            <!--alt="element-logo"-->
-                            <!--class="nav-logo">-->
-                <!--</router-link></h1>-->
-                <!--<ul class="nav">-->
-                    <!--<li class="nav-item">-->
-                        <!--<router-link-->
-                                <!--active-class="active"-->
-                                <!--:to="/guide">25345-->
-                        <!--</router-link>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</div>-->
+
         </header>
     </div>
 </template>
